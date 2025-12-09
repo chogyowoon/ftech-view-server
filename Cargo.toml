@@ -1,10 +1,11 @@
 [package]
-name = "hbbs"
-version = "1.1.14"
-authors = ["rustdesk <info@rustdesk.com>"]
+name = "ftech-server"
+version = "1.0.0"
+authors = ["FTECH <support@ftech.com>"]
 edition = "2021"
 build = "build.rs"
 default-run = "hbbs"
+description = "FTECH VIEWER Server - F-TECH VIEW Remote Desktop Server"
 
 [[bin]]
 name = "hbbr"

@@ -1,12 +1,12 @@
 
 [Unit]
-Description=Rustdesk Signal Server
+Description=FTECH VIEWER Signal Server (hbbs)
 
 [Service]
 Type=simple
 LimitNOFILE=1000000
 ExecStart=/usr/bin/hbbs
-WorkingDirectory=/var/lib/rustdesk-server/
+WorkingDirectory=/var/lib/ftech-viewer-server/
 User=
 Group=
 Restart=always
